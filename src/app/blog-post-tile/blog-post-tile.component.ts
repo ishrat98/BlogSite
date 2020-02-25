@@ -7,8 +7,8 @@ import { BlogPost } from '../Blog-post';
   styleUrls: ['./blog-post-tile.component.css']
 })
 export class BlogPostTileComponent implements OnInit {
-  // @Input() title: string;
-  // @Input() summary: string;
+    @Input() Title: string;
+    @Input() summary: string;
   @Input() post: BlogPost;
 
   constructor() { }

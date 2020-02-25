@@ -6,10 +6,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./blog-post-tile.component.css']
 })
 export class BlogPostTileComponent implements OnInit {
+  Title: string;
+  summary: string;
 
   constructor() { }
 
   ngOnInit() {
+    this.Title = 'Title';
+    this.summary = 'Here\'s the summary';
   }
 
 }

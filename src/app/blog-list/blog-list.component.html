@@ -1,3 +1,4 @@
-<app-blog-post-tile></app-blog-post-tile>
-<app-blog-post-tile></app-blog-post-tile>
-<app-blog-post-tile></app-blog-post-tile>
+<app-blog-post-tile 
+*ngFor="let post of blogPosts"
+[post]="post">
+</app-blog-post-tile>
